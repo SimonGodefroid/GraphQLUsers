@@ -1,0 +1,3 @@
+PUT overwrites the existing request
+
+PATCH modifies only the fields present in the body
