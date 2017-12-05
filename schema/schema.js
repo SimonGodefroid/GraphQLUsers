@@ -38,6 +38,15 @@ const RootQuery = new GraphQLObjectType({
 	}
 });
 
+// GraphQL query
+// {
+//   user(id:"23"){
+//     id,
+//     firstName,
+//     age
+//   }
+// }
+
 module.exports = new GraphQLSchema({
 	query: RootQuery
 });
